@@ -1686,26 +1686,26 @@ button {
         flex-direction: column;
     }
 
-    .education .timeline-container::before {
+    .about .education .timeline-container::before {
         left: 15px;
     }
 
-    .education .timeline-container .timeline-item:nth-child(odd) {
+    .about .education .timeline-container .timeline-item:nth-child(odd) {
         padding-right: 0;
         text-align: left;
     }
 
-    .education .timeline-container .timeline-item:nth-child(odd),
-    .education .timeline-container .timeline-item:nth-child(even) {
+    .about .education .timeline-container .timeline-item:nth-child(odd),
+    .about .education .timeline-container .timeline-item:nth-child(even) {
         padding-left: 45px;
         padding-right: 45px;
     }
 
-    .education .timeline-container .timeline-item .timeline-dot {
+    .about .education .timeline-container .timeline-item .timeline-dot {
         left: 7.5px;
     }
 
-    .experience .experience-container {
+    .about .experience .experience-container {
         grid-template-columns: 1fr;
     }
 
