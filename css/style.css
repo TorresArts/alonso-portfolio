@@ -1644,7 +1644,7 @@ button {
         width: 100%;
         opacity: 0;
         transition: .3s;
-        height: 0%;
+        display: none;
     }
 
     .main-header .container .navbar .menu li {
@@ -1664,7 +1664,7 @@ button {
 
     .main-header .container .navbar .show {
         opacity: 1;
-        height: 100%;
+        display: block;
     }
     /* header media ends */
 
