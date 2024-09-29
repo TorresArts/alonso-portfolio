@@ -1671,6 +1671,11 @@ button {
         flex-direction: column-reverse;
     }
 
+    .home .container .left-box .content h3,
+    .home .container .left-box .content #text-animation {
+        font-size: 2rem;
+    }
+
     .home .container .right-box img {
         max-width: 350px;
         max-height: 350px;
