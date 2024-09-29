@@ -1460,7 +1460,7 @@ button {
     height: 50px;
     padding-top: 12px;
     background-color: transparent;
-    border: 2px solid var(--white);
+    border: 2px solid var(--soft_gold);
     border-radius: .5rem;
     text-align: center;
     color: var(--white);
