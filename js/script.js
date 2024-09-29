@@ -376,8 +376,8 @@ web_development_btn_state.forEach(button => {
 const gameDevelopmentProjects = [
     { id: 1, video: 'PInF6wF_vzE',    title: 'polydimension |',     text: '3d game', category: 'game_development'},
     { id: 1, video: 'F1LmiGlrgCU?si', title: 'sector |',            text: '2d game', category: 'game_development'},
-    { id: 1, video: 'ou3tPy-saLI?si', title: 'pacman revolution |', text: '2d game', category: 'game_development'},
-    { id: 2, video: 'Wcrd18jpgjE?si', title: 'dangerous bombs |',   text: '3d game', category: 'game_development'}
+    { id: 1, video: 'Wcrd18jpgjE?si', title: 'dangerous bombs |',   text: '3d game', category: 'game_development'},
+    { id: 2, video: 'ou3tPy-saLI?si', title: 'pacman revolution |', text: '2d game', category: 'game_development'}
 ];
 
 const gameDevelopmentCategories = [...new Set(gameDevelopmentProjects.map((item) => {return item; }))]
