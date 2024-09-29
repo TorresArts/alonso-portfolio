@@ -585,6 +585,7 @@ section {
 
     &:hover {
         transform: scale(1)translateY(-10px);
+        border: 2px solid var(--white);
     }
 }
 
@@ -725,6 +726,7 @@ section {
 
     &:hover {
         transform: scale(1.05);
+        border: 2px solid var(--white);
     }
 }
 
@@ -791,6 +793,7 @@ section {
 
     &:hover {
         transform: scale(1.05);
+        border: 2px solid var(--white);
     }
 }
 
