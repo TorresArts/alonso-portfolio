@@ -147,7 +147,7 @@ section {
     font-size: 19px;
     color: var(--white);
     cursor: pointer;
-    border: 1px solid var(--white);
+    border: 1px solid var(--soft_gold);
     backdrop-filter: blur(5px);
     display: none;
 }
@@ -992,7 +992,6 @@ section {
 
 .services .services-container .box {
     width: 300px;
-    height: 300px;
     display: flex;
     flex-direction: column;
     border: 2px solid var(--soft_gold);
@@ -1085,21 +1084,21 @@ section {
 
 .modal-popup .services-modal .services-modal-content .services-modal-title {
     font-size: 3.5rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
     font-weight: bold;
     color: var(--soft_gold);
     text-transform: uppercase;
 }
 
 .modal-popup .services-modal .services-modal-content .services-modal-description {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: var(--white);
     line-height: 22px;
 }
 .modal-popup .services-modal .services-modal-content .services-modal-list {
     display: grid;
     row-gap: .75rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .modal-popup .services-modal .services-modal-content .services-modal-list .services-modal-item {
@@ -1132,6 +1131,7 @@ section {
 .modal-popup .services-modal.active-modal {
     opacity: 1;
     visibility: visible;
+    position: fixed;
 }
 /* MODAL POPUP ARTICLE ENDS */
 
@@ -1618,7 +1618,6 @@ button {
     }
 }
 
-
 .footer .footer-distributed .right-box ul li {
     display: flex;
     align-items: center;
@@ -1637,8 +1636,25 @@ button {
     text-transform: uppercase;
 }
 
+.footer .footer-distributed .right-box ul li p span {
+    font-size: 1.2rem;
+    color: var(--grey);
+    text-transform: capitalize;
+}
+
 .footer-copyright {
     color: var(--white);
+    font-size: 1.2rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    padding: 15px 0;
+    text-align: center;
+    background-color: var(--soft_black);
+}
+
+
+.footer-copyright span{
+    color: var(--soft_gold);
     font-size: 1.2rem;
     letter-spacing: 1rem;
     text-transform: uppercase;
@@ -1771,9 +1787,11 @@ button {
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: rgba(255,255,255,.2);
+        /*background-color: rgba(255,255,255,.2);*/
+        background-color: var(--soft_black);
         z-index: 999;
-        border-bottom: 0.1px solid rgba(131,131,131,1);
+        /*border-bottom: 0.1px solid rgba(131,131,131,1);*/
+        border-bottom: 0.1px solid var(--grey);  
         backdrop-filter: blur(10px);
         width: 100%;
         opacity: 0;
@@ -1825,6 +1843,10 @@ button {
 
     .about .content {
         flex-direction: column;
+    }
+
+    .about .content .about-img img {
+        width: 40vw;
     }
     /* education section */
     .about .education .timeline-container::before {
