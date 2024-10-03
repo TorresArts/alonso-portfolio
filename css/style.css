@@ -506,6 +506,7 @@ section {
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 1rem;
 }
 
 .about .heading .container h2 span{
@@ -513,6 +514,7 @@ section {
     font-size: 2.5rem;
     font-weight: 300;
     text-transform: uppercase;
+    letter-spacing: 1rem;
 }
 
 .about .content{
@@ -633,7 +635,8 @@ section {
     margin: 5rem 0;
     text-transform: uppercase;
     color: var(--soft_gold);
-
+    letter-spacing: 1rem;
+    
     opacity: 0;
     animation: slideTop 1s ease forwards;
    
@@ -760,6 +763,7 @@ section {
     margin: 5rem 0;
     text-transform: uppercase;
     color: var(--soft_gold);
+    letter-spacing: 1rem;
 
     opacity: 0;
     animation: slideTop 1s ease forwards;
@@ -891,6 +895,7 @@ section {
     margin: 5rem 0;
     text-transform: uppercase;
     color: var(--soft_gold);
+    letter-spacing: 1rem;
 
     opacity: 0;
     animation: slideTop 1s ease forwards;
@@ -983,6 +988,7 @@ section {
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 1rem;
 }
 
 .services .services-container {
@@ -1158,6 +1164,7 @@ section {
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 1rem;
 }
 
 .portfolio .projects-filter .projects-menu{
@@ -1361,6 +1368,7 @@ button {
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 1rem;
 }
 
 .contact .contact-container {
