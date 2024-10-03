@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alonso - Portfolio Website</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- typed js cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+<body class="body-email-notification">
+    <!-- email notification section starts -->   
+    <section class="email-notification">
+        <div class="email-notification-container active">
+            <div class="email-notification-icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="email-notification-title">
+                <h3>success!</h3>
+            </div>
+            <div class="email-notification-description">
+                <h4>Email sent successfully.</h4>
+            </div>
+            <div class="email-notification-return-btn">
+                <button class="return-btn" onclick="notification()">Return to main page</button>
+            </div>
+        </div>
+    </section> 
+    <!-- email notification section ends -->
+
+    <script>
+        function notification() {
+            window.location.assign("https://torresarts.github.io/alonso-portfolio/");
+        }
+    </script>                                                                                                                                                                                                                                                                                                                                                             
+</body>
+</html>
