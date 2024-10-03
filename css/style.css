@@ -523,7 +523,7 @@ section {
 }
 
 .about .content .about-img img {
-    width: 32vw;
+    width: 28vw;
     border-radius: 10%;
     border: 4px solid var(--soft_gold);
 
@@ -841,6 +841,7 @@ section {
     font-weight: bold;
     color: var(--white);
     margin: 6px 0 15px;
+    text-transform: uppercase;
 }
 
 .about .experience .timeline-container .timeline-item .timeline-content {
@@ -1062,8 +1063,8 @@ section {
     transition: 0.3s ease-in-out;
     z-index: 1000;
 
-    transition: none !important;
-    animation: none !important;
+    /*transition: none !important;
+    animation: none !important;*/
 }
 
 .modal-popup .services-modal .services-modal-content {
@@ -1131,7 +1132,6 @@ section {
 .modal-popup .services-modal.active-modal {
     opacity: 1;
     visibility: visible;
-    position: fixed;
 }
 /* MODAL POPUP ARTICLE ENDS */
 
@@ -1945,6 +1945,12 @@ button {
     }
 
     /* footer media ends */
+}
+
+@media (min-width: 0px) and (max-width: 400px){
+    .portfolio .projects-filter .projects-menu {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* ------------------------------------------------ media section ends ------------------------------------------------ */
