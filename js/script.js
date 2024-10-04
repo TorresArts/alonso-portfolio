@@ -471,10 +471,66 @@ const observer = new IntersectionObserver(entries => {
         }
     });
     }, {
-        rootMargin: '-50px',
+        /*rootMargin: '-50px',*/
     }
 );
 
+/* about section */
 const aboutImg = document.querySelector('.about-img');
-
 observer.observe(aboutImg);
+
+const aboutSubTitle = document.querySelector('.sub-title');
+observer.observe(aboutSubTitle);
+
+const aboutDescription = document.querySelector('.description');
+observer.observe(aboutDescription);
+
+/* this applies on about and services boxes */
+const aboutBoxes = document.querySelectorAll('.box');
+aboutBoxes.forEach(box => {
+    observer.observe(box);
+});
+
+const aboutTimelineTitles = document.querySelectorAll('.timeline-title');
+aboutTimelineTitles.forEach(aboutTimelineTitle => {
+    observer.observe(aboutTimelineTitle);
+});
+
+const aboutTimelineItems = document.querySelectorAll('.timeline-item');
+aboutTimelineItems.forEach(timelineItem => {
+    observer.observe(timelineItem);
+});
+
+const aboutSkillsTitle = document.querySelector('.skills-title');
+observer.observe(aboutSkillsTitle);
+
+const aboutSkillsContents = document.querySelectorAll('.skills-content');
+aboutSkillsContents.forEach(skillsContent => {
+    observer.observe(skillsContent);
+});
+
+/* portfolio section */
+const projectsCategories = document.querySelectorAll('.projects-category');
+projectsCategories.forEach(projectsCategory => {
+    observer.observe(projectsCategory);
+});
+
+const projectBoxes = document.querySelectorAll('.project-box');
+projectBoxes.forEach(projectBox => {
+    observer.observe(projectBox);
+});
+
+/* contact and footer section */
+const contactLeftBox = document.querySelectorAll('.left-box');
+contactLeftBox.forEach(leftBox => {
+    observer.observe(leftBox);
+});
+
+const contactRightBox = document.querySelectorAll('.right-box');
+contactRightBox.forEach(rightBox => {
+    observer.observe(rightBox);
+});
+
+/* footer section only */
+const footerCenterBox = document.querySelector('.center-box');
+observer.observe(footerCenterBox);
