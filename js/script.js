@@ -458,3 +458,23 @@ game_development_btn_state.forEach(button => {
 });
 
 /* ----------------------------------- */
+
+/* animation */
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('opacity-on');
+        }
+        else {
+            entry.target.classList.remove('opacity-on');
+        }
+    });
+    }, {
+        rootMargin: '-50px',
+    }
+);
+
+const aboutImg = document.querySelector('.about-img');
+
+observer.observe(aboutImg);
