@@ -114,13 +114,12 @@ const displayGraphicDesignItem = (items) => {
             `
             <div class='project-box'>
                 <div class='project-img-box'>
-                    <img class='project-image' src=${image}></img>
+                   <img class='project-image' src=${image}></img>
                 </div>
                 <div class='project-content'>
                     <h2 class="project-title">${title}<span> ${text}</span></h2>
                 </div>
             </div>
-            
             `)
     }).join('');
 };
@@ -168,6 +167,7 @@ const graphicDesignFilterItems = (a)=> {
         } 
     }
     displayGraphicDesignItem(graphicDesignFilterCatergories)
+
 }
 
 const grahic_design_btn_state = document.querySelectorAll('.grahic_design_state');
@@ -485,8 +485,7 @@ observer.observe(aboutSubTitle);
 const aboutDescription = document.querySelector('.description');
 observer.observe(aboutDescription);
 
-/* this applies on about and services boxes */
-const aboutBoxes = document.querySelectorAll('.box');
+const aboutBoxes = document.querySelectorAll('.box-animation');
 aboutBoxes.forEach(box => {
     observer.observe(box);
 });
@@ -504,10 +503,17 @@ aboutTimelineItems.forEach(timelineItem => {
 const aboutSkillsTitle = document.querySelector('.skills-title');
 observer.observe(aboutSkillsTitle);
 
-const aboutSkillsContents = document.querySelectorAll('.skills-content');
+const aboutSkillsContents = document.querySelectorAll('.skills-content-animation');
 aboutSkillsContents.forEach(skillsContent => {
     observer.observe(skillsContent);
 });
+
+/* services section */
+const servicesBoxes = document.querySelectorAll('.box');
+servicesBoxes.forEach(box => {
+    observer.observe(box);
+});
+
 
 /* portfolio section */
 const projectsCategories = document.querySelectorAll('.projects-category');
@@ -515,7 +521,7 @@ projectsCategories.forEach(projectsCategory => {
     observer.observe(projectsCategory);
 });
 
-const projectBoxes = document.querySelectorAll('.project-box');
+const projectBoxes = document.querySelectorAll('.animation');
 projectBoxes.forEach(projectBox => {
     observer.observe(projectBox);
 });
