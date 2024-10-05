@@ -2161,6 +2161,10 @@ button {
         width: 100%;
     }
 
+    .footer-copyright p{
+        display: grid;
+    }
+    
     /* footer media ends */
 }
 
