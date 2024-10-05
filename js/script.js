@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let modal = function(modalClick){
         modalViews[modalClick].classList.add('active-modal');
         body.classList.add('active-modal');
+        document.body.style.touchAction = "none";
     }
 
     modalBtns.forEach((mb, i) => {
@@ -42,7 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
         mc.addEventListener('click', () => {
             modalViews.forEach((mv) => {
                 mv.classList.remove('active-modal');
-                body.classList.remove('active-modal');           
+                body.classList.remove('active-modal'); 
+                document.body.style.touchAction = "auto";
             });
         });
     });
