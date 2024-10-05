@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
         mc.addEventListener('click', () => {
             modalViews.forEach((mv) => {
                 mv.classList.remove('active-modal');
-                body.classList.remove('active-modal'); 
-                document.body.style.touchAction = "auto";
+                body.classList.remove('active-modal');
+                document.body.style.touchAction = "auto";           
             });
         });
     });
