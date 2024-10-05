@@ -687,6 +687,7 @@ section {
         left: calc(50% - 1px);
         border-radius: .5rem;
     }
+
 }
 
 .about .education .timeline-container .timeline-item {
@@ -1266,6 +1267,7 @@ section {
     grid-gap: 2.5rem;
     justify-items: center;
     margin-bottom: 5rem;
+
 }
 
 .project-box {
@@ -1982,6 +1984,7 @@ button {
 /* ------------------------------------------------ keyframes ends ------------------------------------------------ */
 
 /* ------------------------------------------------ media section starts ------------------------------------------------ */
+
 @media (max-width: 1100px) {
     html {
         font-size: 55%;
@@ -2164,14 +2167,20 @@ button {
     .footer-copyright p{
         display: grid;
     }
-    
     /* footer media ends */
+
 }
 
-@media (min-width: 0px) and (max-width: 400px){
+@media (min-width: 0px) and (max-width: 400px) {
     .portfolio .projects-filter .projects-menu {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/*@media (min-width: 900px) and (max-width: 1099px) {
+    .project-box {
+        width: 80%;
+    }
+}*/
 
 /* ------------------------------------------------ media section ends ------------------------------------------------ */
