@@ -598,12 +598,16 @@ section {
     transition: 0.3s ease;
     cursor: pointer;
 
-    &:hover {
+    /*&:hover {
         border: 2px solid var(--white);
-        transform: scale(1)translateY(-10px);
+        transform: scale(1)translateY(-10px);*/
     }
 }
 
+.about .content .about-info .achievements .container .box-animation .box:hover {
+    border: 2px solid var(--white);
+    transform: scale(1)translateY(-10px);
+}
 
 .about .content .about-info .achievements .container .box-animation.opacity-on {
     opacity: 1;
