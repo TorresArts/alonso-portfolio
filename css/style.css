@@ -598,7 +598,7 @@ section {
     transition: 0.3s ease;
     cursor: pointer;
 
-    /*&:hover {
+    &:hover {
         border: 2px solid var(--white);
         transform: scale(1)translateY(-10px);*/
     }
