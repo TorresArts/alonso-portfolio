@@ -600,14 +600,17 @@ section {
 
     &:hover {
         border: 2px solid var(--white);
-        transform: scale(1)translateY(-10px);*/
+        transform: translateY(-10px);
     }
+    /* (tabindex="0"), touch action for mobile while is opening in a social media link */
+    &:focus {
+        border: 2px solid var(--white);
+        transform: translateY(-10px);
+    }
+
 }
 
-.about .content .about-info .achievements .container .box-animation .box:hover {
-    border: 2px solid var(--white);
-    transform: scale(1)translateY(-10px);
-}
+
 
 .about .content .about-info .achievements .container .box-animation.opacity-on {
     opacity: 1;
@@ -767,6 +770,12 @@ section {
         transform: scale(1.05);
         border: 2px solid var(--white);
     }
+
+    /* (tabindex="0"), touch action for mobile while is opening in a social media link */
+    &:focus {
+        transform: scale(1.05);
+        border: 2px solid var(--white);
+    }
 }
 
 .about .education .timeline-container .timeline-item .timeline-content h3 {
@@ -904,6 +913,12 @@ section {
         transform: scale(1.05);
         border: 2px solid var(--white);
     }
+
+    /* (tabindex="0"), touch action for mobile while is opening in a social media link */
+    &:focus {
+        transform: scale(1.05);
+        border: 2px solid var(--white);
+    }    
 }
 
 .about .experience .timeline-container .timeline-item .timeline-content h3 {
@@ -984,6 +999,12 @@ section {
         transform: scale(1.05);
         border: 2px solid var(--white);
     }
+
+    /* (tabindex="0"), touch action for mobile while is opening in a social media link */
+    &:focus {
+        transform: scale(1.05);
+        border: 2px solid var(--white);
+    }    
 }
 
 .about .skills .skills-container .skills-content-animation .skills-content .skills-subtitle {
