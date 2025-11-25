@@ -1559,6 +1559,7 @@ button {
 
     transition: 0.3s ease-in-out;
 
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../imgs/waves_lines_background.png) no-repeat;
     opacity: 0;
 }
 
@@ -2218,3 +2219,4 @@ button {
 }*/
 
 /* ------------------------------------------------ media section ends ------------------------------------------------ */
+
