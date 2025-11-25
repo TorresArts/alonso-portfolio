@@ -110,7 +110,7 @@ section {
 
     opacity: 0;
     animation: slideLeft 1s ease forwards;
-    animation-delay: calc(.25s * var(--i));
+    animation-delay: calc(.20s * var(--i));
 
     &:after {
         position: absolute;
@@ -315,7 +315,7 @@ section {
 }
 
 .home .container .left-box .content #text-animation {    
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--white);
     font-weight: 600;
 }
@@ -341,7 +341,7 @@ section {
 .home .container .left-box .social-networks-icons a {
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: calc(.45s * var(--i));
+    animation-delay: calc(.40s * var(--i));
 }
 
 .home .container .left-box .social-networks-icons a i {
@@ -407,7 +407,7 @@ section {
 
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 4.5s;
+    animation-delay: 3.8s;
     
     &::after {
         content: '';
@@ -487,12 +487,14 @@ section {
 
 /* about section starts */
 .about {
-    background-color: var(--dark_black);
+    /* background-color: var(--dark_black); */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/grid_background.png);
 }
 
 .about .heading {
     border-bottom: .1rem solid var(--white);
     margin-bottom: 5rem;
+    position: relative;
 }
 
 .about .heading .container {
@@ -610,8 +612,6 @@ section {
 
 }
 
-
-
 .about .content .about-info .achievements .container .box-animation.opacity-on {
     opacity: 1;
     animation: zoomInScroll 1s ease forwards;
@@ -656,6 +656,7 @@ section {
     border: 2px solid var(--soft_gold);
     border-radius: .5rem;
     margin-top: 5rem;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../imgs/waves_lines_background.png) no-repeat;
 }
                                                 
 .about .education .timeline-title {
@@ -799,6 +800,7 @@ section {
     border: 2px solid var(--soft_gold);
     border-radius: .5rem;
     margin-top: 5rem;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../imgs/waves_lines_background.png) no-repeat;
 }
                                                 
 .about .experience .timeline-title {
@@ -945,6 +947,7 @@ section {
     padding: 0 2rem;
     padding-bottom: 2rem;
     margin-bottom: 5rem;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../imgs/waves_lines_background.png) no-repeat;
 }
 
 .about .skills .skills-title {
@@ -1224,7 +1227,8 @@ section {
 
 /* portfolio section starts */
 .portfolio {
-    background-color: var(--dark_black);
+    /* background-color: var(--dark_black); */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/grid_background.png);
 }
 
 .portfolio .heading {
@@ -1491,6 +1495,7 @@ button {
 
     transition: 0.3s ease-in-out;
 
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../imgs/waves_lines_background.png) no-repeat;
     opacity: 0;
 }
 
@@ -1759,6 +1764,9 @@ button {
     background-color: var(--soft_black);
 }
 
+.footer-copyright #year{
+    color: var(--white);
+}
 
 .footer-copyright span{
     color: var(--soft_gold);
@@ -1769,6 +1777,7 @@ button {
     text-align: center;
     background-color: var(--soft_black);
 }
+
 /* footer section ends */
 
 /* email notification section starts */
