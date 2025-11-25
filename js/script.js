@@ -13,7 +13,7 @@ bars.addEventListener('click', () => {
 
 // script for text change transition effect
 var typed = new Typed('#text-animation', {
-    strings: ['Game Developer.', 'Motion Designer.','Web Developer.', 'Graphic Designer.'],
+    strings: ['Game Developer', 'Motion Designer','Web Developer', 'Graphic Designer'],
     typeSpeed: 30,
     backSpeed: 30,
     smartBackspace: true,
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// script for filter category in porfolio section
+// script for filter category in portfolio section
 const filterCategory = document.querySelector(".projects-menu").children;
 const projectsContainer = document.querySelector(".projects-container").children;
 
@@ -542,3 +542,5 @@ contactRightBox.forEach(rightBox => {
 /* footer section only */
 const footerCenterBox = document.querySelector('.center-box');
 observer.observe(footerCenterBox);
+
+year = document.getElementById("year").textContent = new Date().getFullYear();
