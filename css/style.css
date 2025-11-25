@@ -1047,7 +1047,8 @@ section {
 /* services section starts */
 
 .services {
-    background-color: var(--soft_black);
+    /* background-color: var(--soft_black); */
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0,0.8)), url(../imgs/alonso_text_pattern_background.png) no-repeat;
 }
 
 .services .heading {
@@ -2219,4 +2220,5 @@ button {
 }*/
 
 /* ------------------------------------------------ media section ends ------------------------------------------------ */
+
 
